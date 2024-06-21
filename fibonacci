@@ -1,0 +1,12 @@
+num=121
+sum=0
+cp=num
+ 
+ while cp>0:
+    d=cp % 10
+    sum=sum+(d**3)
+    cp=cp//10
+if num==sum:
+  print(num," is an Armstrong number")
+else:
+  print(num,"is not an Armstrong number")
