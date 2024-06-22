@@ -1,0 +1,26 @@
+#addition
+def add(n1,n2):
+    print("the sum is:",n1+n2)
+#subtraction
+def subtract(n1,n2):
+    print("the difference is:",n1-n2)
+
+def multiply(n1,n2):
+    print("the difference is:",n1*n2)
+
+def divide(n1,n2):
+    print("the difference is:",n1//n2)
+# Input
+n1=int(input("Enter number-1:"))
+n2=int(input("Enter nyumber-2:"))
+operator=input("Enter the operator:")
+
+#calling function
+if operator=="+":
+    add(n1,n2)
+elif operator=="-":
+    subtract(n1,n2)
+elif operator=="*":
+    multiply(n1,n2)
+elif operator=="/":
+    divide(n1,n2)
